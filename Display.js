@@ -1,5 +1,5 @@
 class Display{
-    constructor(displayValorActual, displayValorAnterior){
+    constructor(displayValorAnterior, displayValorActual){
         this.displayValorActual = displayValorActual;
         this.displayValorAnterior = displayValorAnterior;
         this-calculador  new Calculadora ();
@@ -14,10 +14,10 @@ class Display{
     }
 
     imprimirValores(){
-        this.displayValorActual.tetContent = this.valorActual;
+        this.displayValorActual.textContent = this.valorActual;
         this.displayValorAnterior.textContent = this.valorAnterior;
 
     }
 
-}
+} 
 
